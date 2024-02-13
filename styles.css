@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+main{
+    border: 2px solid black;
+    
+}
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    align-items: center;
+    width: 100px;
+}
+
+header{
+    justify-content: space-between;
+    padding: 10px 7%;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(193, 192, 192);
+    position: fixed;
+    width: 100%;
+    /* z-index:99; */
+    background-color: white;
+    height:50px;
+}
+
+.logoSection{
+    width: 20%;
+    gap: 5px;
+    font-size: 0.6rem;
+    align-items: center;
+    color: #545be8;
+    font-size: 15px;
+}
+
+
+.buttons{
+    font-size: 1.2rem;
+    padding: 3px 20px;
+    height: 30px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 5px;
+}
+
+.login{
+    outline: none;
+    background: none;
+    border: 2px solid #545be8;
+    font-size: small;
+    color: #545be8;
+    width: 90px;
+    border-radius: 5px;
+}
+
+.Begin{
+    color: #545be8;
+    font-size: 14.5px;
+}
+.Register{
+    outline: none;
+    border: none;
+    background-color: #545be8;
+    color: white;
+    font-size: small;
+    border-radius: 5px;
+}
+.Find{
+    padding-top: 20px;
+    font-size: 60px;
+}
+.assets{
+    width: 30px;
+    padding-top: 10px;
+}
+
+.navItems{
+    gap: 25px;
+}
+
+.Lorem{
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16.5px;
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+    padding-top: 30px;
+    margin-left: 90px;
+}
+.Teacher{
+    border: 5px;
+    background-color: #545be8;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    padding-left: 10px;
+    color: white;
+}
+.elit{
+    font-size: 17px;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+.Interesting{
+    border: 5px;
+    background-color: #545be8;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    padding-left: 10px;
+    color: white;
+}
+.Course{
+    border: 5px;
+    background-color: #545be8;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    padding-left: 10px;
+    color: white;
+}
+.third-section{
+    background-color: #545be8;
+    display: flex;
+    margin-top: 60px;
+    font-size: large;
+    padding-left: 90px;
+    padding-top: 40px;
+    
+}
+.fourth-section{
+    padding-left: 100px;
+    padding-top: 70px;
+    color: white;
+}
+
+.navItems{
+    font-size: 15px;
+}
+
+.login{
+    font-size: 19px;
+    width: 90px;
+    height: 30px;
+}
+
+.register{
+    font-size: 19px;
+    width: 90px;
+    height: 30px;
+}
+
+  .logoSection{
+      width: 40%;
+}
+
+.hero{
+  padding-top:80px;
+  background-color: #F5F5F5;
+  padding-bottom: 30px
+  ;
+}
+.Ava{
+  width: 300px;
+}
+.buttons{
+  gap: 10px;
+  font-size: 16px;
+}
+
+.container{
+  margin: auto 80px;
+}
+.Lets-begin{
+  font-size: xx-large;
+  padding-top: 20px;
+}
+
+section{
+  padding-left: 95px;
+}
+.Corse{
+  color: #545be8;
+}
+.Log{
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.Reg{
+  outline: none;
+  border: none;
+  background-color: #545be8;
+  color: white;
+  font-size: 16px;
+  border: 45px;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+}
+.Reg-Log{
+  padding-top: 25px;
+}
+.What{
+  margin: auto;
+  padding-top: 30px;
+  padding-left:  500px;
+}
+
+
+.Prof{
+  border-radius: 50%;
+  background-color: white;
+  width: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-size: cover;
+  padding-left: 7px;
+  height: 30px;
+  padding-top: 9px;
+
+}
+
+.Cert{
+  border-radius: 50%;
+  background-color: white;
+  width: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-size: cover;
+  padding-left: 7px;
+  height: 30px;
+  padding-top: 9px;
+}
+
+.Learn{
+  border-radius: 50%;
+  background-color: white;
+  width: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-size: cover;
+  padding-left: 7px;
+  height: 30px;
+  padding-top: 9px;
+}
+.Dolor{
+  padding-top: 20PX;
+}
+
+.heroImage{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-right: 75px;
+}
+
+.Num{
+    color:#F0C932;
+    ;
+}
+.Ipsum{
+    display: grid;
+    gap: 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 90px;
+    padding-top: 40px;
+    width: 10px;
+}
+.Numbers{
+    padding-top: 40px;
+    color: white;
+    gap: 50px;
+    justify-content: center;
+    margin-right: 90px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.Splash{
+    border-radius: 5%;
+    box-shadow: 0px 5px 5px rgb(143, 140, 140);
+    width: 270px;
+    background-image: url(assets/unsplash__yBEyYR8wps.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.people{
+    margin-top: 10px;
+    font-size: larger;
+}
+.best{
+    border: #545be8;
+    background-color: #545be8;
+    color: white;
+   padding-top: 5px;
+    margin-top: 20px;
+    width: 110px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.usd{
+    margin-top: 100px;
+    margin-left: 195px;
+    color: white;
+}
+
+.Selected{
+    color: #F0C932;
+}
+.grapher{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    gap: 20px;
+}
+.photo{
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px rgb(143, 140, 140);
+    width: 270px;
+    background-image: url(assets/unsplash_DQPP9rVLYGQ.jpg);
+    background-repeat: no-repeat;
+}
+.java{
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px rgb(143, 140, 140);
+    width: 270px;
+    background-image: url(assets/unsplash_L8KQIPCODV8.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+.Desain{
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px rgb(143, 140, 140);
+    width: 270px;
+    background-image: url(assets/unsplash_-RBuQ2PK_L8.jpg);
+    background-repeat: no-repeat;
+}
+
+.testimonial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 10px;
+    grid-gap:50px;
+}
+
+.Vector{
+    margin-left: 490px;
+    position: relative;
+    bottom: 47px;
+}
+
+.luctus{
+    box-shadow: 0px 4px 4px rgb(216, 211, 211);
+    padding-left: 20px;
+    width: 575px;
+    font-size: 16px;
+    color: gray;
+}
+.views{
+    padding-left: 70px;
+    font-size: 13px;
+    color: #545be8;
+}
+
+.Dolor{
+    width: 500px;
+    font-size: 18px;
+    margin-right: 70px;
+    padding-left: 0px;
+}
+
+.Tea{
+    color: grey;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.test{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.for{
+    color: #545be8;
+    padding-bottom: 20px;
+}
+
+.dapibus{
+    position: relative;
+    bottom: 50px;
+}
+
+.et{
+    grid-template-columns: span 2;
+    width: 500px;
+    line-height: 40px;
+}
+.donec{
+    position: relative;
+    bottom: 40px;
+    padding-top: 10px;
+}
+.amet{
+    padding-top: 10px;
+    color: grey;
+    padding-bottom: 10px;
+}
+.pro{
+    padding-left: 60px;    
+}
+.sell{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.rut{
+    
+}
+
+.See{
+    outline: none;
+    border: none;
+    background-color: #545be8;
+    color: white;
+    margin-right: 190px;
+    font-size: small;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+}
+.people{
+    padding-top: 20px;
+    font-size: 30px;
+    }
+.last-section{
+    display: grid;
+   background-color:#393E46;
+   height: 290px;
+   line-height: 50px;
+   padding-top: 30px;
+   grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+   padding-left: 90px;
+   color: white;
+   gap: -90px;
+ 
+}
+
+.cos{
+    padding-left: 20px;
+}
+
+@media screen and (max-width:600px) {
+    body{
+        font-size: 14px;
+    }
+    header{
+        padding: 10px 2%;
+    }
+    .navItems{
+        display: none;
+    }
+    
+    .logoSection{
+        width: 60%;
+        font-size: 13px;
+    }
+    .buttons{
+        font-size: 0.7rem;
+        padding: 3px 10px;
+        display: none;
+    }
+    .Lorem{
+        font-size: 15px;
+        padding-right: 5px;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+    .find{
+        font-size: 30px;
+    }
+    .What{
+        font-size: 13px;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .heroImage{
+        width: 60%;
+        margin: auto;
+    }
+    .box{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0px;
+        font-size: 14px;
+        
+    }
+   .Teacher{
+        width: 40%;
+        padding-left: 50px;
+        padding-right: 100px;
+        margin-top: 20px;
+        font-size: 15px;
+        margin-left: 20px;
+   }
+   .Interesting{
+        width: 40%;
+        padding-left: 50px;
+        padding-right: 100px;
+        margin-top: 20px;
+        font-size: 15px;
+        margin-left: 20px;
+
+   }
+   .Course{
+        width: 40%;
+        padding-left: 50px;
+        padding-right: 100px;
+        margin-top: 20px;
+        font-size: 15px;
+        margin-left: 20px;
+   }
+   .sell{
+    width: 70%;
+    margin-left: 55px;
+   }
+   .third-section{
+    display: grid;
+    padding: 0px;
+    grid-template-columns: 1fr;
+    width: 100%;
+   }
+
+   .fourth-section{
+    padding: 0px;
+   }
+
+   .Selected{
+    font-size: 13px;
+    padding-left: 90px;
+   }
+   .Numbers{
+    font-size: 13px;
+   }
+   .people{
+    padding-left: 50px;
+   }
+   .Ipsum{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+    margin-top: 30px;
+   }
+   .photo{
+    margin-left: 30px;
+   }
+   .java{
+    margin-left: 30px;
+  
+   }
+   .Ava{
+    margin-left: 30px;
+   }
+   .Splash{
+    margin-left: 30px;
+   }
+   .Desain{
+    margin-left: 30px;
+   }
+   .testimonial{
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    
+   }
+   .Vector{
+   position: relative;
+   right: 274px;
+   bottom: 50px;
+
+   }
+   .et{
+    padding-left: 20px;
+    width: 220px;
+   }
+   .pro{
+    margin-left: 20px;
+    padding: 0px;
+   }
+    .elit{
+    margin-left: 20px;
+    font-size: 15px;
+    }
+
+   .luctus{
+    width: 300px;
+    font-size: 14px;
+   
+   }
+
+   .people{
+    font-size: 20px;
+   }
+
+   .test{
+    
+   }
+
+   .last-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+    gap: 30px;
+    line-height: 30px;
+    height: 700px;
+   }
+
+   .What{
+    margin-left: 20px;
+   }
+
+   .See{
+    font-size: 15px;
+   }
+
+   .con{ 
+        padding-left: 20px;
+        margin-bottom: 20px;
+   }
+}
+/* }
+
+
+
+
+
+.image{
+    padding-left: 60px;
+    background-color: #545be8;
+}
+
+
+.image{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mang{
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.et{
+    grid-column: span 2;
+    line-height: 20px;
+    width: 500px ;
+    padding-right: 30px;
+}
+
+<!--   */
